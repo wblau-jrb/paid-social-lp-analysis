@@ -318,13 +318,14 @@
   <section>
     <h2>Cross-Launch Pattern Summary</h2>
     <div class="pattern-table">
-      <p style="margin-bottom: 14px; font-size: 13px;">Ranked by RPS within each launch. Green = top 2, red = worst.</p>
+      <p style="margin-bottom: 14px; font-size: 13px;">Ranked by RPS within each launch. Green = top 2, red = worst. Dashes indicate destinations not tested in that launch.</p>
       <table>
         <thead>
           <tr>
             <th class="product-col">Launch</th>
             <th>Listicle LP</th>
             <th>Homepage</th>
+            <th>New Shopify LPs</th>
             <th>Quiz</th>
             <th>Shop All</th>
             <th>PDP</th>
@@ -338,6 +339,7 @@
             <td class="rank-1">$0.92 <span class="dimmed">(1st)</span></td>
             <td class="rank-2">$0.75 <span class="dimmed">(3rd)</span></td>
             <td class="dimmed">—</td>
+            <td class="dimmed">—</td>
             <td class="rank-last">$0.53 <span class="dimmed">(4th)</span></td>
             <td class="rank-last">$0.38 <span class="dimmed">(last)</span></td>
             <td class="rank-last">$0.48</td>
@@ -348,6 +350,7 @@
             <td class="rank-1">$0.63 <span class="dimmed">(1st)</span></td>
             <td class="rank-2">$0.56 <span class="dimmed">(2nd)</span></td>
             <td class="dimmed">—</td>
+            <td class="dimmed">—</td>
             <td>$0.41</td>
             <td>$0.42</td>
             <td class="dimmed">—</td>
@@ -357,6 +360,7 @@
             <td class="product-col">Mini Miracle Balm</td>
             <td class="rank-2">$0.98 <span class="dimmed">(2nd)</span></td>
             <td class="rank-1">$1.12 <span class="dimmed">(1st)</span></td>
+            <td class="dimmed">—</td>
             <td>$0.76</td>
             <td class="rank-last">$0.72</td>
             <td class="rank-last">$0.61 <span class="dimmed">(last)</span></td>
@@ -367,9 +371,10 @@
             <td class="product-col">Blushing Stick (Branded)</td>
             <td class="rank-2">$0.90 <span class="dimmed">(2nd)</span></td>
             <td class="rank-1">$1.44 <span class="dimmed">(1st)</span></td>
+            <td>$0.89 <span class="dimmed">(3rd, Emily Perf.)</span></td>
             <td class="dimmed">—</td>
             <td class="dimmed">—</td>
-            <td>$0.78</td>
+            <td>$0.78 <span class="dimmed">(last)</span></td>
             <td class="dimmed">—</td>
             <td>2.4K</td>
           </tr>
@@ -377,6 +382,7 @@
             <td class="product-col">Blushing Stick (Emily)</td>
             <td class="rank-2">$0.68 <span class="dimmed">(2nd)</span></td>
             <td class="rank-1">$0.74 <span class="dimmed">(1st)</span></td>
+            <td class="rank-last">$0.66 / $0.56 <span class="dimmed">(3rd, last)</span></td>
             <td class="dimmed">—</td>
             <td class="dimmed">—</td>
             <td class="dimmed">—</td>
@@ -385,7 +391,10 @@
           </tr>
         </tbody>
       </table>
-      <div class="callout" style="margin-top: 16px;"><strong>Pattern (RPS view):</strong> Across every test, the top 2 RPS finishers are always Listicle LP and Homepage — no other destination has ever cracked the top 2. On large-volume launches (200K+ sessions), Listicle LPs win. On smaller-volume tests, Homepage wins. PDP, Shop All, Collections, and Quiz never finish better than 3rd.</div>
+      <div class="callout" style="margin-top: 16px;"><strong>Pattern (RPS view):</strong> Across every test, the top 2 RPS finishers are always Listicle LP and Homepage — no other destination has ever cracked the top 2. On large-volume launches (200K+ sessions), Listicle LPs win. On smaller-volume tests, Homepage wins. PDP, Shop All, Collections, Quiz, and New Shopify LPs never finish better than 3rd.</div>
+      <div style="margin-top: 12px; font-size: 11px; color: var(--muted); font-family: 'Space Mono', monospace;">
+        <strong style="color: var(--black);">New Shopify LPs tested:</strong> Blushing Stick (Branded) included Emily Performance ($0.89). Blushing Stick (Emily) included Emily Storytelling ($0.66) and Emily Performance ($0.56).
+      </div>
     </div>
   </section>
 
@@ -456,24 +465,61 @@
         <div class="callout"><strong>Homepage wins here — the exception.</strong> 100% traffic moved to Homepage. Listicle LP V1 was competitive (~10% behind). The Mini MB audience may be more "familiar with MB, just wants to shop" since MB is JRB's hero product.</div>
       </div>
 
-      <!-- Blushing Stick (combined view) -->
+      <!-- Blushing Stick Branded -->
       <div class="test-card">
         <div class="test-card-header">
-          <span class="test-name">Blushing Stick</span>
-          <span class="status-pill status-readable">Launch · Smaller sample</span>
+          <span class="test-name">Blushing Stick (Branded)</span>
+          <span class="status-pill status-readable">Branded ads · 2.4K sessions</span>
         </div>
-        <span class="test-meta">4 tests · Started 4/10/2026 · 12 days in</span>
+        <span class="test-meta">Started 4/10/2026 · 12 days in</span>
         <table>
           <thead><tr><th>Variant</th><th>CVR</th><th>RPV</th><th>N</th></tr></thead>
           <tbody>
-            <tr class="winner"><td>Homepage (Branded)</td><td>1.66%</td><td>$1.44</td><td>601</td></tr>
-            <tr class="winner"><td>Homepage (Emily)</td><td>1.07%</td><td>$0.74</td><td>2.2K</td></tr>
-            <tr><td>Listicle (Branded)</td><td>0.98%</td><td>$0.90</td><td>613</td></tr>
-            <tr><td>Listicle (Emily)</td><td>0.83%</td><td>$0.68</td><td>2.2K</td></tr>
-            <tr class="dimmed"><td>TOF (all variants)</td><td>0.00%</td><td>$0.00</td><td>~300 ea</td></tr>
+            <tr class="winner"><td>Homepage</td><td>1.66%</td><td>$1.44</td><td>601</td></tr>
+            <tr><td>Listicle</td><td>0.98%</td><td>$0.90</td><td>613</td></tr>
+            <tr><td>Emily Performance <span class="dimmed">(New Shopify LP)</span></td><td>1.26%</td><td>$0.89</td><td>637</td></tr>
+            <tr><td>PDP</td><td>1.18%</td><td>$0.78</td><td>591</td></tr>
           </tbody>
         </table>
-        <div class="callout"><strong>Homepage wins at this smaller sample size.</strong> Results consistent with Mini MB (lower-volume = Homepage wins). Not yet at "launch scale" volume where Listicle LPs have historically won.</div>
+        <div class="callout"><strong>Homepage wins decisively</strong> (+60% RPS over Listicle). But Listicle still beats Emily Performance ($0.90 vs $0.89 RPS) — the older, simpler Listicle format outperforms the newer Shopify LP build even on a CVR basis (0.98% vs 1.26% is deceiving — RPS is the fair comparison given AOV differences).</div>
+      </div>
+
+      <!-- Blushing Stick Emily -->
+      <div class="test-card">
+        <div class="test-card-header">
+          <span class="test-name">Blushing Stick (Emily)</span>
+          <span class="status-pill status-readable">Emily ads · 7.9K sessions</span>
+        </div>
+        <span class="test-meta">Started 4/10/2026 · 12 days in</span>
+        <table>
+          <thead><tr><th>Variant</th><th>CVR</th><th>RPV</th><th>N</th></tr></thead>
+          <tbody>
+            <tr class="winner"><td>Homepage</td><td>1.07%</td><td>$0.74</td><td>2.2K</td></tr>
+            <tr><td>Listicle</td><td>0.83%</td><td>$0.68</td><td>2.2K</td></tr>
+            <tr><td>Emily Storytelling <span class="dimmed">(New Shopify LP)</span></td><td>0.79%</td><td>$0.66</td><td>2.1K</td></tr>
+            <tr class="dimmed"><td>Emily Performance <span class="dimmed">(New Shopify LP)</span></td><td>0.75%</td><td>$0.56</td><td>1.3K</td></tr>
+          </tbody>
+        </table>
+        <div class="callout"><strong>Homepage wins but by a narrower margin</strong> (+9% RPS over Listicle). <strong>Listicle outperforms both new Shopify LPs</strong> — Emily Storytelling ($0.66) and Emily Performance ($0.56) — despite being an older, simpler page format. The new LP builds didn't pay off even when the ad creative was Emily-specific.</div>
+      </div>
+
+      <!-- Blushing Stick TOF (kept separately, noted as not readable) -->
+      <div class="test-card">
+        <div class="test-card-header">
+          <span class="test-name">Blushing Stick (TOF)</span>
+          <span class="status-pill status-unreadable">Not Readable · ~1.2K total</span>
+        </div>
+        <span class="test-meta">Top-of-funnel · Started 4/10/2026</span>
+        <table>
+          <thead><tr><th>Variant</th><th>CVR</th><th>RPV</th><th>N</th></tr></thead>
+          <tbody>
+            <tr class="dimmed"><td>Homepage</td><td>0.00%</td><td>$0.00</td><td>267</td></tr>
+            <tr class="dimmed"><td>Listicle</td><td>0.00%</td><td>$0.00</td><td>300</td></tr>
+            <tr class="dimmed"><td>Quiz</td><td>0.00%</td><td>$0.00</td><td>308</td></tr>
+            <tr class="dimmed"><td>Emily Story <span class="dimmed">(New Shopify LP)</span></td><td>0.00%</td><td>$0.00</td><td>291</td></tr>
+          </tbody>
+        </table>
+        <div class="callout"><strong>TOF audience is cold, not broken.</strong> ATC rate 0.67% vs 5.6% on Branded — 8x colder. Need 5K+ visitors per arm for any reliable signal.</div>
       </div>
 
     </div>
@@ -490,31 +536,37 @@
       </div>
 
       <div class="finding">
-        <div class="finding-label">Finding 02</div>
+        <div class="finding-label">Finding 02 · New</div>
+        <div class="finding-title">Listicle format is outperforming both new Shopify LP builds on Blushing Stick</div>
+        <p>On the current Blushing Stick launch, the Listicle LP is beating both new Shopify-native LPs — Emily Performance and Emily Storytelling — on RPS across both tests. Specifically: on Branded, Listicle ($0.90) beats Emily Performance ($0.89). On Emily-Specific, Listicle ($0.68) beats both Emily Storytelling ($0.66) and Emily Performance ($0.56). The newer, more complex LP builds are underperforming the simpler, older Listicle format even when the ad creative is designed to match them.</p>
+      </div>
+
+      <div class="finding">
+        <div class="finding-label">Finding 03</div>
         <div class="finding-title">Image-led Listicles beat Headline-led Listicles</div>
         <p>ES Stick tested both and Image-led beat Headline-led by ~13% CVR (1.06% vs 0.94%). For Foundation Stick launch, the Listicle variant should lead with a compelling before/after or product-in-use image, not a hook headline.</p>
       </div>
 
       <div class="finding">
-        <div class="finding-label">Finding 03</div>
+        <div class="finding-label">Finding 04</div>
         <div class="finding-title">PDP, Collection, and Shop All pages lose every time</div>
         <p>Across all 7 tests, these three LP formats never come in first and usually come in last. ES PDP hit a 0.44% CVR. Never default to these for paid social.</p>
       </div>
 
       <div class="finding">
-        <div class="finding-label">Finding 04</div>
+        <div class="finding-label">Finding 05</div>
         <div class="finding-title">Quiz as a paid LP is not winning</div>
         <p>MB Quiz came in 3rd of 6 on Mini MB. Blushing Stick Quiz had 0 orders. Quiz drives engagement but not purchase on cold/lukewarm paid traffic.</p>
       </div>
 
       <div class="finding">
-        <div class="finding-label">Finding 05</div>
+        <div class="finding-label">Finding 06</div>
         <div class="finding-title">Social Proof framing underperformed Problem-First framing</div>
         <p>Lip Recharge LP V2 (Social Proof Headline) was paused in favor of LP V1 (Problem First Headline). Worth considering for Foundation Stick LP copy: lead with a customer problem, not a social proof stat.</p>
       </div>
 
       <div class="finding">
-        <div class="finding-label">Finding 06</div>
+        <div class="finding-label">Finding 07</div>
         <div class="finding-title">Storytelling-heavy LPs consistently underperform</div>
         <p>Emily Storytelling came in 3rd on Blushing Stick Emily-Specific. Narrative content may be a conversion tax for warm paid traffic who are ready to shop. Exception: may work for YouTube (early signal, unconfirmed).</p>
       </div>
